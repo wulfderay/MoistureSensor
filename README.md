@@ -48,7 +48,7 @@ The Arduino code supports the following serial commands:
 1. Connect the Arduino board to your computer and upload the code using the Arduino IDE.
 2. Open the serial monitor in the Arduino IDE or any serial communication tool.
 3. The Arduino will continuously read the sensor values, update the LEDs, and print the data in JSON format over the serial connection.
-4. You can use a script like my plant-health project to read the JSON and (for example) publish it via MQTT
+4. You can use a script like my [plant-health](https://github.com/wulfderay/plant-health) project to read the JSON and (for example) publish it via MQTT
 
 Note: Make sure to install the required libraries (e.g., DHT) in the Arduino IDE before uploading the code.
 
